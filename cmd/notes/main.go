@@ -196,12 +196,12 @@ func removeTask(itemNum int32) error {
 func printHelp() {
 	fmt.Print(`TODO CLI application
 Usage:
-  todo list
-  todo add task
-  todo update task_num item
-  todo remove task_num
+  notes list
+  notes add task
+  notes update task_num item
+  notes remove task_num
 Example:
-  todo add 'Learn Go'
-  todo list
+  notes add 'Learn Go'
+  notes list
 `)
 }
