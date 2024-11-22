@@ -51,7 +51,7 @@ func main() {
 	}
 
 	// Add a custom metric.
-	meter := otel.Meter("todoservice")
+	meter := otel.Meter("notesservice")
 	taskCnt, err := meter.Int64UpDownCounter("task.count")
 	if err != nil {
 		log.Fatalf("Unable to create list_tasks metrics counter: %v\n", err)
